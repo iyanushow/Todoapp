@@ -70,3 +70,10 @@ li:hover span{
     width: 40px;
     opacity: 1.0;
 }
+
+@media screen and (max-width:922px){
+    .container{
+        text-decoration: none;
+         color: black;
+     }
+}
