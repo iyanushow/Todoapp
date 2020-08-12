@@ -2,7 +2,7 @@
 let items = $("ul")
 items.on("click","li",(function(){
     // uncheck item if already checked or check if completed
-    //$(this).toggleClass("completed");
+    $(this).toggleClass("completed");
 })); 
 
 //delete item if x is clicked
